@@ -1,0 +1,144 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testing Banking application",
+    "line": 1,
+    "id": "testing-banking-application",
+    "tags": [],
+    "uri": "Features\\Test1.feature",
+    "elements": [
+      {
+        "id": "testing-banking-application;login-page-test",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login Page Test",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the url \"http://way2automation.com/angularjs-protractor/banking/#/login\"",
+            "match": {
+              "location": "Features\\step_definations\\common.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on Bank Manager Login",
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on Add customer",
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1058000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fill customer details \"Vedant\", \"Patil\", \"444555\"",
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on add customer",
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see alert for succsses",
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Features\\step_definations\\stepDef.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "90.0.4430.212"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
